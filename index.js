@@ -113,6 +113,16 @@ const TrainingSet = require('./trainingdata.json')
     classifier.addDocument('Union-Find Algorithm | Set 2', 'programming');
     classifier.addDocument('Union-Find Algorithm | (Union By Rank and Find by Optimized Path Compression)', 'programming');
     classifier.addDocument('Magical Indices in an array', 'programming');   
+    classifier.addDocument('Topological Sorting', 'programming');
+classifier.addDocument('All topological sorts of a Directed Acyclic Graph', 'programming');
+// classifier.addDocument('Kahn's Algorithm for Topological Sorting', 'programming');
+classifier.addDocument('Maximum edges that can be added to DAG so that is remains DAG', 'programming');
+classifier.addDocument('Longest path between any pair of vertices', 'programming');
+classifier.addDocument('Longest Path in a Directed Acyclic Graph', 'programming');
+classifier.addDocument('Longest Path in a Directed Acyclic Graph | Set 2', 'programming');
+classifier.addDocument('Topological Sort of a graph using departure time of vertex', 'programming');
+classifier.addDocument('Given a sorted dictionary of an alien language, find order of characters', 'programming');
+
 
 
 
