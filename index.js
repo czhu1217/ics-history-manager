@@ -103,7 +103,7 @@ const TrainingSet = require('./trainingdata.json')
     classifier.addDocument('Detect cycle in a direct graph using colors', 'programming');
     classifier.addDocument('Assign directions to edges so that the directed graph remains acyclic', 'programming');
     classifier.addDocument('Detect a negative cycle in a Graph | (Bellman Ford)', 'programming');
-    classifier.addDocument(Cycles of length n in an undirected and connected graph'', 'programming');
+    classifier.addDocument('Cycles of length n in an undirected and connected graph', 'programming');
     classifier.addDocument('Detecting negative cycle using Floyd Warshall', 'programming');
     classifier.addDocument('Check if there is a cycle with odd weight sum in an undirected graph', 'programming');
     classifier.addDocument('Check if a graphs has a cycle of odd length', 'programming');
