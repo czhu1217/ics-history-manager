@@ -43,6 +43,88 @@ const TrainingSet = require('./trainingdata.json')
     classifier.addDocument('Programming Languages Online Courses: From Java to Ruby ...', 'programming');
     classifier.addDocument('Learn C (Introduction and Tutorials to C Programming)', 'programming');
     classifier.addDocument('Prim’s Minimum Spanning Tree Algorithm', 'programming');
+
+    classifier.addDocument('Maximum number of edges to be added to a tree so that it stays a Bipartite graph', 'programming');
+    classifier.addDocument('DFS for a n-ary tree (acyclic graph) represented as adjacency list', 'programming');
+    classifier.addDocument('BFS using STL for competitive coding', 'programming');
+    classifier.addDocument('Height of a generic tree from parent array', 'programming');
+    classifier.addDocument('Path in a Rectangle with Circles', 'programming');
+    classifier.addDocument('Transpose graph', 'programming');
+    classifier.addDocument('Construct binary palindrome by repeated appending and trimming', 'programming');
+    classifier.addDocument('Level of Each node in a Tree from source node', 'programming');
+    classifier.addDocument('BFS using vectors & queue as per the algorithm of CLRS', 'programming');
+    classifier.addDocument('Count number of trees in a forest', 'programming');
+    classifier.addDocument(' Water Jug problem using BFS', 'programming');
+    classifier.addDocument('Shortest path to reach one prime to other by changing single digit at a time', 'programming');
+
+    classifier.addDocument('Minimum initial vertices to traverse whole matrix with given conditions', 'programming');
+    classifier.addDocument('Count all possible paths between two vertices', 'programming');
+    classifier.addDocument('Count the number of nodes at given level in a tree using BFS', 'programming');
+    classifier.addDocument('Iterative Depth First Search', 'programming');
+    classifier.addDocument('Find K cores of an undirected Graph', 'programming');
+
+    classifier.addDocument('Transitive Closure of a Graph using DFS', 'programming');
+    classifier.addDocument('Find Mother Vertex in a Graph', 'programming');
+    classifier.addDocument('Graph representations using set and hash', 'programming');
+    classifier.addDocument(' Applications of Breadth First Traversal', 'programming');
+    classifier.addDocument('Applications of Depth First Search', 'programming');
+    classifier.addDocument('Depth First Traversal for a Graph', 'programming');
+    classifier.addDocument('Breadth First Traversal for a Graph', 'programming');
+    classifier.addDocument(' Graph and its representations', 'programming');
+    classifier.addDocument('A Peterson Graph Problem', 'programming');
+    classifier.addDocument('Implementation of Graph in JavaScript', 'programming');
+    classifier.addDocument('Print all paths from a given source to a destination using BFS', 'programming');
+    classifier.addDocument('Minimum number of edges between two vertices of a Graph', 'programming');
+    classifier.addDocument('Count nodes within K-distance from all nodes in a set', 'programming');
+
+    classifier.addDocument('Find the smallest binary digit multiple of given number', 'programming');
+    classifier.addDocument('Minimum steps to reach end of array under constraints', 'programming');
+    classifier.addDocument('Minimum number of operation required to convert number x into y', 'programming');
+    classifier.addDocument('Minimum steps to reach target by a Knight | Set 1', 'programming');
+    classifier.addDocument('Find the minimum number of moves needed to move from one cell of matrix to another', 'programming');
+    classifier.addDocument('Delete Edge to minimize subtree sum difference', 'programming');
+    classifier.addDocument('Maximum product of two non-intersecting paths in a tree', 'programming');
+    classifier.addDocument('Number of pair of positions in matrix which are not accessible', 'programming');
+    classifier.addDocument('Best First Search (Informed Search)', 'programming');
+    classifier.addDocument('Move weighting scale alternate under given constraints', 'programming');
+    classifier.addDocument('BFS for Disconnected Graph', 'programming');
+    classifier.addDocument('Minimum edge reversals to make a root', 'programming');
+    classifier.addDocument('Bidirectional Search', 'programming');
+    classifier.addDocument('Roots of a tree which give minimum height', 'programming');
+    classifier.addDocument('Stepping Numbers', 'programming');
+    classifier.addDocument('Clone an Undirected Graph', 'programming');
+    classifier.addDocument('Sum of the minimum elements in all connected components of an undirected graph', 'programming');
+    classifier.addDocument('Check if two nodes are on same path in a tree', 'programming');
+    classifier.addDocument('A matrix probability question', 'programming');
+    classifier.addDocument('Find length of the largest region in Boolean Matrix', 'programming');
+    classifier.addDocument('Iterative Deepening Search(IDS) or Iterative Deepening Depth First Search(IDDFS)', 'programming');
+    classifier.addDocument('Detect Cycle in a Directed Graph', 'programming');
+    classifier.addDocument('Detect cycle in an undirected graph', 'programming');
+    classifier.addDocument('Detect cycle in a direct graph using colors', 'programming');
+    classifier.addDocument('Assign directions to edges so that the directed graph remains acyclic', 'programming');
+    classifier.addDocument('', 'programming');
+    classifier.addDocument('', 'programming');
+    classifier.addDocument('', 'programming');
+    classifier.addDocument('', 'programming');
+    classifier.addDocument('', 'programming');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     classifier.addDocument('the human genome project', 'biology');
     classifier.addDocument('High School Biology Topics', 'biology');
     classifier.addDocument('Central nervous systems and brain functions', 'biology');
@@ -138,7 +220,7 @@ classifier.save('classifier.json', function(err, classfier){
  });
  natural.BayesClassifier.load('classifier.json', null, function(err, classifier) {
     console.log(classifier.classify('the human genome project and its next steps'));
-    console.log(classifier.classify('magic mushrrom as new treatment for depression'));
+    console.log(classifier.classify('linear search and binary search'));
 });
 
 
