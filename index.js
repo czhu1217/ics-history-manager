@@ -102,11 +102,17 @@ const TrainingSet = require('./trainingdata.json')
     classifier.addDocument('Detect cycle in an undirected graph', 'programming');
     classifier.addDocument('Detect cycle in a direct graph using colors', 'programming');
     classifier.addDocument('Assign directions to edges so that the directed graph remains acyclic', 'programming');
-    classifier.addDocument('', 'programming');
-    classifier.addDocument('', 'programming');
-    classifier.addDocument('', 'programming');
-    classifier.addDocument('', 'programming');
-    classifier.addDocument('', 'programming');
+    classifier.addDocument('Detect a negative cycle in a Graph | (Bellman Ford)', 'programming');
+    classifier.addDocument(Cycles of length n in an undirected and connected graph'', 'programming');
+    classifier.addDocument('Detecting negative cycle using Floyd Warshall', 'programming');
+    classifier.addDocument('Check if there is a cycle with odd weight sum in an undirected graph', 'programming');
+    classifier.addDocument('Check if a graphs has a cycle of odd length', 'programming');
+    classifier.addDocument('Clone a Directed Acyclic Graph', 'programming');
+    classifier.addDocument('Check loop in array according to given constraints', 'programming');
+    classifier.addDocument('Disjoint Set (Or Union-Find) | Set 1', 'programming');
+    classifier.addDocument('Union-Find Algorithm | Set 2', 'programming');
+    classifier.addDocument('Union-Find Algorithm | (Union By Rank and Find by Optimized Path Compression)', 'programming');
+    classifier.addDocument('Magical Indices in an array', 'programming');   
 
 
 

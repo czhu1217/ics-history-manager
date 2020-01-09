@@ -5,17 +5,5 @@
   {"phrase": "Chocolate cake is the best", "result": {"good": 1}},
   {"phrase": "Carrots are horrible and should not be eaten", "result": {"bad": 1}}
   
-Detect a negative cycle in a Graph | (Bellman Ford)
-Cycles of length n in an undirected and connected graph
-Detecting negative cycle using Floyd Warshall
-Check if there is a cycle with odd weight sum in an undirected graph
-Check if a graphs has a cycle of odd length
-Clone a Directed Acyclic Graph
-Check loop in array according to given constraints
-Disjoint Set (Or Union-Find) | Set 1
-Union-Find Algorithm | Set 2
-Union-Find Algorithm | (Union By Rank and Find by Optimized Path Compression)
-Magical Indices in an array
-    
 
 ]
