@@ -627,6 +627,12 @@ classifier.addDocument('Find smallest and largest elements in singly linked list
 classifier.addDocument('Arrange consonants and vowels nodes in a linked list', 'programming');
 classifier.addDocument('Partitioning a linked list around a given value and If we don\'t care about making the elements of the list "stable"', 'programming');
 classifier.addDocument('Modify contents of Linked List', 'programming');
+
+
+
+
+
+
     classifier.addDocument('the human genome project', 'biology');
     classifier.addDocument('High School Biology Topics', 'biology');
     classifier.addDocument('Central nervous systems and brain functions', 'biology');
@@ -656,6 +662,11 @@ classifier.addDocument('Modify contents of Linked List', 'programming');
     classifier.addDocument('Regenerative medicine of the future', 'biology');
     classifier.addDocument('Prospects for the development of cell therapy.', 'biology');
     classifier.addDocument('the human genome project', 'biology');
+
+
+
+
+
     classifier.addDocument('William Shakespeare | Poetry Foundation', 'english');
     classifier.addDocument('Plot and Setting – Students read and analyze short stories and nonfiction selections in terms of plot and setting', 'english');
     classifier.addDocument('identify the inciting incident, conflict, rising action, climax, resolution, setting and the effect setting has on the plot', 'english');
@@ -679,6 +690,97 @@ classifier.addDocument('Modify contents of Linked List', 'programming');
     classifier.addDocument('Author of first English novel kept it hidden for ten years – here’s why', 'english');
     classifier.addDocument('Vanity Fair: Thackeray’s classic novel may be too modern for audiences today', 'english');
     classifier.addDocument('Upstart Crow: Shakespeare sitcom is really quite educational', 'english');
+
+
+
+    classifier.addDocument('Complex numbers', 'programming');
+classifier.addDocument('Complex plane', 'programming');
+classifier.addDocument('Complex functions', 'programming');
+classifier.addDocument('Complex derivative', 'programming');
+classifier.addDocument('Holomorphic functions', 'programming');
+classifier.addDocument('Harmonic functions', 'programming');
+classifier.addDocument('Elementary functions', 'programming');
+classifier.addDocument('Polynomial functions', 'programming');
+classifier.addDocument('Exponential functions', 'programming');
+classifier.addDocument('Trigonometric functions', 'programming');
+classifier.addDocument('Logarithmic functions', 'programming');
+classifier.addDocument('Inverse trigonometric functions', 'programming');
+classifier.addDocument('Residue theory', 'programming');
+classifier.addDocument('Isometries in the complex plane', 'programming');
+classifier.addDocument('Holomorphic function', 'programming');
+classifier.addDocument('Antiholomorphic function', 'programming');
+classifier.addDocument('Cauchy-Riemann equations', 'programming');
+classifier.addDocument('Conformal mapping', 'programming');
+classifier.addDocument('Conformal welding', 'programming');
+classifier.addDocument('Power series', 'programming');
+classifier.addDocument('Radius of convergence', 'programming');
+classifier.addDocument('Laurent series', 'programming');
+classifier.addDocument('Meromorphic function', 'programming');
+classifier.addDocument('Entire function', 'programming');
+classifier.addDocument('Pole (complex analysis)', 'programming');
+classifier.addDocument('Zero (complex analysis)', 'programming');
+classifier.addDocument('Residue (complex analysis)', 'programming');
+classifier.addDocument('Isolated singularity', 'programming');
+classifier.addDocument('Removable singularity', 'programming');
+classifier.addDocument('Essential singularity', 'programming');
+classifier.addDocument('Branch point', 'programming');
+classifier.addDocument('Principal branch', 'programming');
+classifier.addDocument('Weierstrass-Casorati theorem', 'programming');
+classifier.addDocument('Landau\'s constants', 'programming');
+classifier.addDocument('Holomorphic functions are analytic', 'programming');
+classifier.addDocument('Schwarzian derivative', 'programming');
+classifier.addDocument('Analytic capacity', 'programming');
+classifier.addDocument('Disk algebra', 'programming');
+classifier.addDocument('Growth and distributi', 'programming');
+classifier.addDocument('Ahlfors theory', 'programming');
+classifier.addDocument('Bieberbach conjecture', 'programming');
+classifier.addDocument('Borel-Carathéodory theorem', 'programming');
+classifier.addDocument('Corona theorem', 'programming');
+classifier.addDocument('Hadamard three-circle theorem', 'programming');
+classifier.addDocument('Hardy space', 'programming');
+classifier.addDocument('Hardy\'s theorem', 'programming');
+classifier.addDocument('Maximum modulus principle', 'programming');
+classifier.addDocument('Nevanlinna theory', 'programming');
+classifier.addDocument('Paley-Wiener theorem', 'programming');
+classifier.addDocument('Progressive function', 'programming');
+classifier.addDocument('Value distribution theory of holomorphic functions', 'programming');
+classifier.addDocument('Line integral', 'programming');
+classifier.addDocument('Cauchy\'s integral theorem', 'programming');
+classifier.addDocument('Cauchy\'s integral formula', 'programming');
+classifier.addDocument('Residue theorem', 'programming');
+classifier.addDocument('Liouville\'s theorem (complex analysis)', 'programming');
+classifier.addDocument('Examples of contour integration', 'programming');
+classifier.addDocument('Fundamental theorem of algebra', 'programming');
+classifier.addDocument('Simply connected', 'programming');
+classifier.addDocument('Winding number', 'programming');
+classifier.addDocument('Principle of the argument', 'programming');
+classifier.addDocument('Rouché\'s theorem', 'programming');
+classifier.addDocument('Bromwich integral', 'programming');
+classifier.addDocument('Morera\'s theorem', 'programming');
+classifier.addDocument('Mellin transform', 'programming');
+classifier.addDocument('Kramers-Kronig relation, a. k. a. Hilbert transform', 'programming');
+classifier.addDocument('Sokhotski-Plemelj theorem', 'programming');
+classifier.addDocument('Exponential function', 'programming');
+classifier.addDocument('Beta function', 'programming');
+classifier.addDocument('Gamma function', 'programming');
+classifier.addDocument('Riemann zeta function', 'programming');
+classifier.addDocument('Riemann hypothesis', 'programming');
+classifier.addDocument('Generalized Riemann hypothesis', 'programming');
+classifier.addDocument('Elliptic function', 'programming');
+classifier.addDocument('Half-period ratio', 'programming');
+classifier.addDocument('Jacobi\'s elliptic functions', 'programming');
+classifier.addDocument('Weierstrass\'s elliptic functions', 'programming');
+classifier.addDocument('Theta function', 'programming');
+classifier.addDocument('Elliptic modular function', 'programming');
+classifier.addDocument('J-function', 'programming');
+classifier.addDocument('Modular function', 'programming');
+classifier.addDocument('Modular form', 'programming');
+classifier.addDocument('Analytic continuation', 'programming');
+classifier.addDocument('Riemann sphere', 'programming');
+classifier.addDocument('Riemann surface', 'programming');
+classifier.addDocument('Riemann mapping theorem', 'programming');
+classifier.addDocument('Carathéodory\'s theorem (conformal mapping)', 'programming');
+classifier.addDocument('Riemann-Roch theorem', 'programming');
     classifier.addDocument('Algebra foundations','math');
     classifier.addDocument('Solving equations & inequalities','math');
     classifier.addDocument('Working with units','math');
