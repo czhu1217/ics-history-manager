@@ -7,16 +7,21 @@ int main(){
     string s;
     for(int i=0;i<200;i++){
         getline(cin, s);
+     
+        
         if(s=="!"){
             sze = i;
             break;
 
         } 
         a[i] = s;
+        // cout << a[i] << endl;
 
     }
     for(int i=0;i<sze;i++){
-        printf("classifier.addDocument('%s', 'programming')\n", a[i]);
+        printf("classifier.addDocument('");
+        cout << a[i] << "', 'programming');" << "\n";
     }
+    return 0;
     
 }
