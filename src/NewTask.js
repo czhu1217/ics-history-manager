@@ -9,7 +9,7 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faRunning,
+  faGamepad,
   faSpinner,
   faBook,
   faEllipsisV
@@ -109,7 +109,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
           label="Name"
           isCentered
           error={errors.includes("NAME") ? "Please, name your task" : null}
-          placeholder="Run for 5km"
+          placeholder="Study Computer Science"
           onChange={handleNameChange}
           value={task.name}
         />
@@ -132,7 +132,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
                       color: task.icon === "RUN" ? "#4CAF50" : "#2196F3",
                       borderColor: "transparent"
                     }}
-                    icon={task.icon === "RUN" ? faRunning : faBook}
+                    icon={task.icon === "RUN" ? faGamepad : faBook}
                   />
                 )
               }
@@ -140,7 +140,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
               <MenuItem
                 onClick={handleChangeRunIcon}
                 label="Running"
-                icon={<FontAwesomeIcon icon={faRunning} />}
+                icon={<FontAwesomeIcon icon={faGamepad} />}
                 iconPosition="left"
               />
               <MenuItem
@@ -163,7 +163,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
               icon={
                 suggestedIcon ? (
                   <FontAwesomeIcon
-                    icon={suggestedIcon === "RUN" ? faRunning : faBook}
+                    icon={suggestedIcon === "RUN" ? faGamepad : faBook}
                   />
                 ) : (
                   <FontAwesomeIcon icon={faSpinner} spin />

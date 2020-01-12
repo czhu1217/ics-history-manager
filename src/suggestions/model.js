@@ -1,7 +1,7 @@
 import * as tf from "@tensorflow/tfjs";
 import * as tfvis from "@tensorflow/tfjs-vis";
-const learnTodos = require("./data/learn_todos.json");
-const exerciseTodos = require("./data/exercise_todos.json");
+const learnTodos = require("./data/academics.json");
+const exerciseTodos = require("./data/entertainment.json");
 
 const trainTasks = learnTodos.concat(exerciseTodos);
 
