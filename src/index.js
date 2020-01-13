@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { Card } from "react-rainbow-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTasks } from "@fortawesome/free-solid-svg-icons";
+import { faHistory } from "@fortawesome/free-solid-svg-icons";
 import * as use from "@tensorflow-models/universal-sentence-encoder";
 import UUID from "uuidjs";
 import _ from "lodash";
@@ -72,14 +72,14 @@ const App = () => {
     <div className="rainbow-m-around_x-large">
       {model === null && <div id="loss-cont" />}
       <Card
-        title="The Cute List"
+        title="Better History"
         icon={
           <span
             className="rainbow-background-color_success rainbow-border-radius_circle rainbow-align-content_center"
             style={iconContainerStyles}
           >
             <FontAwesomeIcon
-              icon={faTasks}
+              icon={faHistory}
               size="lg"
               className="rainbow-color_white"
             />

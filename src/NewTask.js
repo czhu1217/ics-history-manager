@@ -106,10 +106,10 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
       <div className="rainbow-align-content_center ranbow-flex_row">
         <Input
           required
-          label="Name"
+          label="Title"
           isCentered
           error={errors.includes("NAME") ? "Please, name your task" : null}
-          placeholder="Study Computer Science"
+          placeholder="Bubble Sort"
           onChange={handleNameChange}
           value={task.name}
         />
@@ -139,7 +139,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
             >
               <MenuItem
                 onClick={handleChangeRunIcon}
-                label="Running"
+                label="Entertainment"
                 icon={<FontAwesomeIcon icon={faGamepad} />}
                 iconPosition="left"
               />
@@ -179,7 +179,7 @@ const NewTask = ({ onSaveTask, model, encoder }) => {
         </div>
       )}
       <div className="rainbow-p-top_large">
-        <Button label="Save Task" variant="brand" onClick={handleSaveTask} />
+        <Button label="Save History" variant="brand" onClick={handleSaveTask} />
       </div>
     </>
   );

@@ -78,7 +78,7 @@ const suggestIcon = async (model, encoder, taskName, threshold) => {
 
   if (prediction[0] > threshold) {
     return "BOOK";
-  } else if (prediction[1] > threshold) {
+  } else if (prediction[1] > 0) {
     return "RUN";
   } else {
     return null;
